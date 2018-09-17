@@ -1,0 +1,38 @@
+body{
+  background-image: url("../images/vintage_speckles.png");
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+}
+.title{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+}
+.doubleline{
+  line-height: 2em;
+}
+.thickerborder{
+  border-width: thick!important;
+}
+
+a:link{
+color: lightgrey;
+text-decoration: none;
+}
+
+a:visited {
+    color: lightgrey;
+    text-decoration: none;
+}
+a:hover {
+    color: #604AAA;
+    text-decoration: none;
+}
+a:active {
+    color: #604AAA;
+    text-decoration: underline;
+    background-color: #E89F0B;
+}
+.image{
+  width: 175px;
+  height: 175px;
+}
