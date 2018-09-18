@@ -10,24 +10,26 @@
     <!--header area, same on all pages-->
     <nav class="navbar navbar-expand-sm navbar-light bg-white mt-sm-2 py-0">
       <div class="d-flex justify-content-between mx-auto" style= "width: 960px">
-        <div class="name navbar-brand bg-info text-white" >
+        <div class="name navbar-brand bg-info text-white px-3" >
           <h1>Dylan Airhart</h1>
         </div>
-        <div class="links d-flex justify-content-between mt-sm-3" style="width: 400px;">
-          <div class="link">
-            <h4><a href="index.html">About</a></h4>
-          </div>
-          <div class="smallborder">
-            <p>|</p>
-          </div>
-          <div class="link">
-            <h4><a href="portfolio.html">Portfolio</a><h4>
-          </div>
-          <div class="smallborder">
-            <p>|</p>
-          </div>
-          <div class="link">
-            <h4><a href="contact.html">Contact</a></h4>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex justify-content-between mt-sm-3">
+
+          <div class="collapse navbar-collapse mt-sm-3" id="navbarTogglerDemo01">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -46,13 +48,56 @@
                 <div class="col-sm-12 border-bottom">
                   <h1>Portfolio</h1>
                 </div>
+              </div>
                 <div class="row">
-                  <div class="col-sm-12">
-                    <a href "#"><img src="./assets/images/python.svg.png" alt="Python Repo Pic" class="image">
-                    <p>Python Repo</p>
+                  <div class="portfoliolink mr-5">
+                    <div class="image">
+                      <a href="https://github.com/nfgrawker/Python_code_public"><img class="image" src="./assets/images/python.svg.png" alt="Python Logo" ></a>
+                    </div>
+                    <div class="imagebanner">
+                      <h3>Python Repo</h3>
+                    </div>
+                  </div>
+                  <div class="portfoliolink">
+                    <div class="image">
+                      <a href="https://github.com/nfgrawker/Website-stuff"><img class="image" src= "./assets/images/html.jpg" alt="html logo"></a>
+                    </div>
+                    <div class="imagebanner">
+                      <h3>HTML Repo </h3>
+                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="portfoliolink mr-5">
+                  <div class="image">
+                    <a href="https://example.com"><img class="image" src= "./assets/images/findadentist.png" alt="dentist logo"></a>
+                  </div>
+                  <div class="imagebanner">
+                    <h3>FindaDentist</h3>
                   </div>
                 </div>
+                  <div class="portfoliolink">
+                    <div class="image">
+                      <a href="https://example.com"><img class="image" src= "./assets/images/pizzapp.png" alt="Pizza App Logo"></a>
+                    </div>
+                    <div class="imagebanner">
+                      <h3>PizzaMe </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="portfoliolink">
+                    <div class="image">
+                      <a href="https://example.com"><img class="image" src= "./assets/images/paintyourhouse.png" alt="housepaintrapp"></a>
+                    </div>
+                    <div class="imagebanner">
+                      <h3>HousePainTr</h3>
+                    </div>
+                  </div>
+                </div>
+                </div>
               </div>
+            </div>
               <div class="row">
 
               </div>
@@ -68,11 +113,17 @@
     </div>
 
     <!--Footer/Copyright same all pages -->
+    <div class="container">
+      <nav class="navbar fixed-bottom text-white bg-secondary border-top border-info thickerborder">
+        <div class="mx-auto my-auto">
+          <p class="">Copyright©</a>
+        </div>
+      </nav>
+    </div>
 
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
   </body>
 </html>
